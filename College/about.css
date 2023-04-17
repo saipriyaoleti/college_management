@@ -1,0 +1,16 @@
+*{
+    padding : 0px;
+    margin:0px;
+}
+body{
+    background:#c8e8e9;
+}
+.a h1{
+    text-align: center;
+}
+.a{
+    font-size: 30px;
+}
+.a p{
+    padding:15px;
+}

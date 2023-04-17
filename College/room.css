@@ -1,0 +1,274 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    background:#3c5077;
+    background-size: cover;
+}
+.login-form {
+    width:350px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color:#fff;
+}
+.login-form h1 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-form p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+.login-form input {
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+}
+nav{
+    position: absolute;
+    width:400px;
+    line-height: 40px;
+    padding:8px 25px;
+}
+/* select{
+    font-size: 15px;
+    padding: 2px 2px 3px 3px;
+    width:100%;
+} */
+.login-form button {
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+
+}
+.b{
+    padding:10px 60px;
+    background:#fff;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    font-size:22px;
+    font-weight:500;
+    border-radius:30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.b{
+    align-items: center;
+    
+}
+input[type=checkbox]+label{
+    display:block;
+    margin:0.2em;
+    cursor:pointer;
+    padding:0.2px;
+    font-size: 18px;
+}
+input[type=chechbox] + label:before{
+    transform: scale(2);
+    content:"\2714";
+    border:0.1em solid #000;
+    border-radius:0.2em;
+    display:1em;
+    height:1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    padding-right: 0.2em;
+    vertical-align: bottom;
+    color: tranparent;
+    transition:.2sec;
+}
+input[type=checkbox]:checked + label:before{
+    background-color: mediumseagreen;
+    border:mediumseagreen;
+    color:#fff;
+}
+input[type=checkbox]+label:active:before{
+    transform:scale(0);
+}
+.b button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    width: 10%;
+    border-radius: 5px;
+    border: 0;
+
+} 
+input[type=checkbox]:disabled+label:before{
+    transform:scale(1);
+    border-color:#aaa;
+}
+@media(max-width:600px){
+    .login-form {
+        width:350px;
+        top:40%;
+        left:60%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .login-form input {
+        font-size: 15px;
+        width: 80%;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 3px;
+    }
+}
+@media(max-width:500px){
+    .login-form {
+        width:350px;
+        top:40%;
+        left:55%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .login-form input {
+        font-size: 18px;
+        width: 77%;
+        padding: 10px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 3px;
+    }
+    .login-form h1 {
+        font-size: 28px;
+         text-align: center; 
+      
+        text-transform: uppercase;
+        margin: 40px 0;
+    }
+    .login-form p {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    input[type=checkbox]+label{
+        display:block;
+        margin:0.2em;
+        cursor:pointer;
+        padding:0.2px;
+        font-size: 25px;
+        width:25px;
+        height:25px;
+    }
+    .b button {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 10px;
+        width: 12%;
+        border-radius: 5px;
+        border: 0;
+    
+    } 
+}
+@media(max-width:500px){
+    .login-form {
+        width:350px;
+        top:40%;
+        left:65%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .login-form h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .login-form input {
+        font-size: 18px;
+        width: 77%;
+        height: 30%;
+        padding: 10px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 3px;
+    }
+    .login-form button {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 10px;
+        width: 55%;
+        height:18%;
+        align-items: center;
+        border-radius: 5px;
+        border: 0;
+    
+    } 
+    input[type=checkbox]+label{
+        display:block;
+        margin:0.2em;
+        cursor:pointer;
+        padding:0.2px;
+        font-size: 25px;
+        width:35px;
+        height:35px;
+    }
+}
+@media(max-width:300px){
+    .login-form {
+        width:350px;
+        top:40%;
+        left:65%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .login-form h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .login-form input {
+        font-size: 18px;
+        width: 77%;
+        height: 30%;
+        padding: 10px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 3px;
+    }
+    .login-form p {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .login-form button {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 10px;
+        width: 55%;
+        height:18%;
+        align-items: center;
+        border-radius: 5px;
+        border: 0;
+    
+    } 
+    input[type=checkbox]+label{
+        display:block;
+        margin:0.2em;
+        cursor:pointer;
+        padding:0.2px;
+        font-size: 25px;
+        width:50px;
+        height:35px;
+    }
+}

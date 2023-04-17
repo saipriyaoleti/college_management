@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    background:#3c5077;
+    background-size: cover;
+}
+.Labs {
+    width:350px;
+    top:52%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color:#fff;
+}
+.Labs h1 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.Labs p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.Labs input {
+    font-size: 25px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.Labs button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+
+}
+.Labs textarea {
+    font-size: 25px;
+    width: 100%;
+    border: 0; 
+    outline: none;
+    border-radius: 5px;
+}
+@media(max-width:900px){
+    .Labs {
+        width:350px;
+        top:42%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+}
+@media(max-width:450px){
+    .Labs {
+        width:350px;
+        top:42%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .Labs p {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .Labs input {
+        font-size: 25px;
+        width: 85%;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+    }
+    .Labs textarea {
+        font-size: 25px;
+        width: 86%;
+        border: 0; 
+        outline: none;
+        border-radius: 5px;
+    }
+    .Labs button {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 60%;
+        border-radius: 5px;
+        border: 0;
+    
+    }
+}
+@media(max-width:385px){
+    .Labs {
+        width:350px;
+        top:42%;
+        left:60%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color:#fff;
+    }
+    .Labs p {
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .Labs input {
+        font-size: 25px;
+        width: 75%;
+        height:40%;
+        padding: 15px 10px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+    }
+    .Labs textarea {
+        font-size: 25px;
+        width: 76%;
+        height:40%;
+        border: 0; 
+        outline: none;
+        border-radius: 5px;
+    }
+    .Labs button {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 50%;
+        border-radius: 5px;
+        border: 0;
+    
+    }
+}
